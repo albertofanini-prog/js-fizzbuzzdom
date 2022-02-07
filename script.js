@@ -6,10 +6,6 @@
 //appendere l'elemento html
 //aplicare stili differenti ai vari multipli
 
-//Contenitore principale
-const container = document.getElementById('main_container');
-console.log(container);
-
 //Scrivere un programma che stampi i numeri
 /*for (let i = 1; i < 101; i++){
     const square = document.createElement('div');
@@ -36,6 +32,10 @@ console.log(container);
             }
 }*/
 
+//Contenitore principale
+const container = document.getElementById('main_container');
+console.log(container);
+
 //Scrivere un programma che stampa i numeri
 for (let i = 1; i < 101; i++){
 
@@ -57,9 +57,10 @@ for (let i = 1; i < 101; i++){
         else if ( i % 3 === 0){
         square.classList.add('square_fizz');
         square.append('fizz');
-        
+
     }   //Altrimenti scrivi il numero
         else {
+            square.classList.add('square_number')
             square.append(i);
     }
 }
