@@ -25,7 +25,6 @@ body{
     font-size: 52px;
 }
 
-
 .box{
     display: flex;
     align-items: center;
@@ -33,6 +32,10 @@ body{
     width: calc((100% - 120px) / 7 );
     height: 100px;
     font-weight: 700;
+}
+
+.box:hover{
+    transform: translateY(-15px);
 }
 
 .container > *{
