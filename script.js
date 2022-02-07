@@ -32,6 +32,8 @@
             }
 }*/
 
+alert("Benvenuto! Scorri con il mouse sopra ai numeri per vedere l'effetto.")
+
 //Contenitore principale
 const container = document.getElementById('main_container');
 console.log(container);

@@ -32,10 +32,12 @@ body{
     width: calc((100% - 120px) / 7 );
     height: 100px;
     font-weight: 700;
+    opacity: 0.4;
 }
 
 .box:hover{
     transform: translateY(-15px);
+    opacity: 1;
 }
 
 .container > *{
