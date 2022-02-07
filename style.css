@@ -14,15 +14,6 @@ body{
     gap: 20px;
 }
 
-.number_square{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #138982;
-    width: 100px;
-    height: 100px;
-}
-
 .main{
     max-width: 900px;
     margin: 0 auto;

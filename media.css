@@ -1,0 +1,47 @@
+@media screen and (max-width: 795px){
+    .box{
+        width: calc((100% - 120px) / 6);
+    }
+}
+
+@media screen and (max-width: 679px){
+    .main h1{
+        font-size: 42px;
+    }
+
+    .container > *{
+        font-size: 18px;
+    }
+
+    .box{
+        width: calc((100% - 120px) / 5);
+    }
+}
+
+@media screen and (max-width: 524px){
+    .main h1{
+        font-size: 36px;
+    }
+
+    .container > *{
+        font-size: 14px;
+    }
+
+    .box{
+        width: calc((100% - 120px) / 4);
+    }
+}
+
+@media screen and (max-width: 388pc){
+    .main h1{
+        font-size: 28px;
+    }
+
+    .container > *{
+        font-size: 10px;
+    }
+
+    .box{
+        width: calc((100% - 120px) / 3);
+    }
+}
